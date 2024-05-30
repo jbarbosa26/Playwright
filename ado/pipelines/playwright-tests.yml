@@ -1,0 +1,63 @@
+name: Playwright Tests
+ 
+trigger:
+  - main
+  - master
+ 
+jobs:
+  - job: test
+    timeoutInMinutes: 60
+    pool:
+      vmImage: "ubuntu-latest"
+ 
+    steps:
+      - task: NodeTool@0
+        inputs:
+          versionSpec: "18.x"
+        displayName: "Install Node.js"
+ 
+      - script: |
+          npm ci
+        displayName: "Install dependencies"
+
+      - task: Npm@1
+        displayName: 'npm run build'
+        inputs:
+          command: custom
+          verbose: false
+          customCommand: 'run build'
+ 
+      - script: |
+          npx playwright install --with-deps
+        displayName: "Install Playwright Browsers"
+ 
+      - script: |
+          npx playwright test
+        displayName: "Run Playwright tests"
+        failOnStderr: true
+        env:
+          AZURE_TENANT_ID: $(TENANT_ID)
+          AZURE_CLIENT_SECRET: $(CLIENT_SECRET)
+          AZURE_CLIENT_ID: $(CLIENT_ID)
+          API_TOKEN: $(TOKEN)
+
+      - task: PublishTestResults@2
+        displayName: "Publish test results"
+        inputs:
+          searchFolder: $(System.DefaultWorkingDirectory)/test-results
+          testResultsFormat: 'JUnit'
+          testResultsFiles: 'tests-junit-results.xml' 
+          mergeTestResults: true
+          failTaskOnFailedTests: true
+          testRunTitle: 'My Playwright Tests'
+        condition: succeededOrFailed()
+ 
+      - publish: $(System.DefaultWorkingDirectory)/playwright-report
+        artifact: playwright-report
+        # always create the artifact, this is useful for debugging failed tests
+        condition: always()
+
+      - task: PublishBuildArtifacts@1
+        displayName: 'Publish Artifact: drop'
+        inputs:
+          PathtoPublish: build
