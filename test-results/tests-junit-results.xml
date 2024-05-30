@@ -1,0 +1,912 @@
+<testsuites id="" name="" tests="130" failures="0" skipped="0" errors="0" time="78.663888">
+<testsuite name="demo-todo-app.spec.js" timestamp="2024-05-29T23:48:05.417Z" hostname="Chromium" tests="24" failures="0" skipped="0" time="36.658" errors="0">
+<testcase name="New Todo › should allow me to add todo items" classname="demo-todo-app.spec.js" time="3.104">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-New-Todo-should-allow-me-to-add-todo-items-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="New Todo › should clear text input field when an item is added" classname="demo-todo-app.spec.js" time="2.51">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-New-Todo-should-clear-text-input-field-when-an-item-is-added-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="New Todo › should append new items to the bottom of the list" classname="demo-todo-app.spec.js" time="3.226">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-New-Todo-should-append-new-items-to-the-bottom-of-the-list-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mark all as completed › should allow me to mark all items as completed" classname="demo-todo-app.spec.js" time="3.438">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Mark-all-as-completed-should-allow-me-to-mark-all-items-as-completed-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mark all as completed › should allow me to clear the complete state of all items" classname="demo-todo-app.spec.js" time="1.219">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Mark-all-as-completed-should-allow-me-to-clear-the-complete-state-of-all-items-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mark all as completed › complete all checkbox should update state when items are completed / cleared" classname="demo-todo-app.spec.js" time="1.389">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Mark-all-as-completed-complete-a-f0803-d-update-state-when-items-are-completed-cleared-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Item › should allow me to mark items as complete" classname="demo-todo-app.spec.js" time="1.082">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Item-should-allow-me-to-mark-items-as-complete-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Item › should allow me to un-mark items as complete" classname="demo-todo-app.spec.js" time="1.359">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Item-should-allow-me-to-un-mark-items-as-complete-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Item › should allow me to edit an item" classname="demo-todo-app.spec.js" time="1.033">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Item-should-allow-me-to-edit-an-item-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should hide other controls when editing" classname="demo-todo-app.spec.js" time="1.162">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-hide-other-controls-when-editing-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should save edits on blur" classname="demo-todo-app.spec.js" time="1.154">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-save-edits-on-blur-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should trim entered text" classname="demo-todo-app.spec.js" time="1.168">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-trim-entered-text-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should remove the item if an empty text string was entered" classname="demo-todo-app.spec.js" time="1.3">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-remove-the-item-if-an-empty-text-string-was-entered-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should cancel edits on escape" classname="demo-todo-app.spec.js" time="1.275">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-cancel-edits-on-escape-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Counter › should display the current number of todo items" classname="demo-todo-app.spec.js" time="0.989">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Counter-should-display-the-current-number-of-todo-items-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Clear completed button › should display the correct text" classname="demo-todo-app.spec.js" time="1.004">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Clear-completed-button-should-display-the-correct-text-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Clear completed button › should remove completed items when clicked" classname="demo-todo-app.spec.js" time="1.276">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Clear-completed-button-should-remove-completed-items-when-clicked-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Clear completed button › should be hidden when there are no items that are completed" classname="demo-todo-app.spec.js" time="1.098">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Clear-completed-button-should-be-hidden-when-there-are-no-items-that-are-completed-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Persistence › should persist its data" classname="demo-todo-app.spec.js" time="1.162">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Persistence-should-persist-its-data-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should allow me to display active items" classname="demo-todo-app.spec.js" time="1.057">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-allow-me-to-display-active-items-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should respect the back button" classname="demo-todo-app.spec.js" time="1.672">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-respect-the-back-button-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should allow me to display completed items" classname="demo-todo-app.spec.js" time="1.262">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-allow-me-to-display-completed-items-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should allow me to display all items" classname="demo-todo-app.spec.js" time="1.385">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-allow-me-to-display-all-items-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should highlight the currently applied filter" classname="demo-todo-app.spec.js" time="1.334">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-highlight-the-currently-applied-filter-Chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-1.spec.ts" timestamp="2024-05-29T23:48:05.417Z" hostname="Chromium" tests="1" failures="0" skipped="0" time="0.356" errors="0">
+<testcase name="test" classname="test-1.spec.ts" time="0.356">
+</testcase>
+</testsuite>
+<testsuite name="test-2.spec.ts" timestamp="2024-05-29T23:48:05.417Z" hostname="Chromium" tests="1" failures="0" skipped="0" time="0.397" errors="0">
+<testcase name="test" classname="test-2.spec.ts" time="0.397">
+</testcase>
+</testsuite>
+<testsuite name="demo-todo-app.spec.js" timestamp="2024-05-29T23:48:05.417Z" hostname="Firefox" tests="24" failures="0" skipped="0" time="47.736" errors="0">
+<testcase name="New Todo › should allow me to add todo items" classname="demo-todo-app.spec.js" time="3.676">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-New-Todo-should-allow-me-to-add-todo-items-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="New Todo › should clear text input field when an item is added" classname="demo-todo-app.spec.js" time="3.034">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-New-Todo-should-clear-text-input-field-when-an-item-is-added-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="New Todo › should append new items to the bottom of the list" classname="demo-todo-app.spec.js" time="3.675">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-New-Todo-should-append-new-items-to-the-bottom-of-the-list-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mark all as completed › should allow me to mark all items as completed" classname="demo-todo-app.spec.js" time="3.951">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Mark-all-as-completed-should-allow-me-to-mark-all-items-as-completed-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mark all as completed › should allow me to clear the complete state of all items" classname="demo-todo-app.spec.js" time="2.96">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Mark-all-as-completed-should-allow-me-to-clear-the-complete-state-of-all-items-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mark all as completed › complete all checkbox should update state when items are completed / cleared" classname="demo-todo-app.spec.js" time="2.37">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Mark-all-as-completed-complete-a-f0803-d-update-state-when-items-are-completed-cleared-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Item › should allow me to mark items as complete" classname="demo-todo-app.spec.js" time="1.41">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Item-should-allow-me-to-mark-items-as-complete-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Item › should allow me to un-mark items as complete" classname="demo-todo-app.spec.js" time="1.79">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Item-should-allow-me-to-un-mark-items-as-complete-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Item › should allow me to edit an item" classname="demo-todo-app.spec.js" time="1.27">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Item-should-allow-me-to-edit-an-item-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should hide other controls when editing" classname="demo-todo-app.spec.js" time="1.574">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-hide-other-controls-when-editing-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should save edits on blur" classname="demo-todo-app.spec.js" time="1.327">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-save-edits-on-blur-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should trim entered text" classname="demo-todo-app.spec.js" time="1.332">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-trim-entered-text-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should remove the item if an empty text string was entered" classname="demo-todo-app.spec.js" time="1.309">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-remove-the-item-if-an-empty-text-string-was-entered-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should cancel edits on escape" classname="demo-todo-app.spec.js" time="1.349">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-cancel-edits-on-escape-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Counter › should display the current number of todo items" classname="demo-todo-app.spec.js" time="1.13">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Counter-should-display-the-current-number-of-todo-items-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Clear completed button › should display the correct text" classname="demo-todo-app.spec.js" time="1.051">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Clear-completed-button-should-display-the-correct-text-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Clear completed button › should remove completed items when clicked" classname="demo-todo-app.spec.js" time="1.166">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Clear-completed-button-should-remove-completed-items-when-clicked-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Clear completed button › should be hidden when there are no items that are completed" classname="demo-todo-app.spec.js" time="1.22">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Clear-completed-button-should-be-hidden-when-there-are-no-items-that-are-completed-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Persistence › should persist its data" classname="demo-todo-app.spec.js" time="3.69">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Persistence-should-persist-its-data-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should allow me to display active items" classname="demo-todo-app.spec.js" time="1.502">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-allow-me-to-display-active-items-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should respect the back button" classname="demo-todo-app.spec.js" time="1.845">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-respect-the-back-button-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should allow me to display completed items" classname="demo-todo-app.spec.js" time="1.575">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-allow-me-to-display-completed-items-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should allow me to display all items" classname="demo-todo-app.spec.js" time="2.267">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-allow-me-to-display-all-items-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should highlight the currently applied filter" classname="demo-todo-app.spec.js" time="1.263">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-highlight-the-currently-applied-filter-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-1.spec.ts" timestamp="2024-05-29T23:48:05.417Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="0.374" errors="0">
+<testcase name="test" classname="test-1.spec.ts" time="0.374">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-1-test-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-2.spec.ts" timestamp="2024-05-29T23:48:05.417Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="0.791" errors="0">
+<testcase name="test" classname="test-2.spec.ts" time="0.791">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-2-test-Firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="demo-todo-app.spec.js" timestamp="2024-05-29T23:48:05.417Z" hostname="Webkit (Desktop Safari)" tests="24" failures="0" skipped="0" time="81.498" errors="0">
+<testcase name="New Todo › should allow me to add todo items" classname="demo-todo-app.spec.js" time="4.133">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-New-Todo-should-allow-me-to-add-todo-items-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="New Todo › should clear text input field when an item is added" classname="demo-todo-app.spec.js" time="2.989">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-New-Todo-should-clear-text-input-field-when-an-item-is-added-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="New Todo › should append new items to the bottom of the list" classname="demo-todo-app.spec.js" time="3.255">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-New-Todo-should-append-new-items-to-the-bottom-of-the-list-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mark all as completed › should allow me to mark all items as completed" classname="demo-todo-app.spec.js" time="4.964">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Mark-all-as-completed-should-allow-me-to-mark-all-items-as-completed-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mark all as completed › should allow me to clear the complete state of all items" classname="demo-todo-app.spec.js" time="4.288">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Mark-all-as-completed-should-allow-me-to-clear-the-complete-state-of-all-items-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mark all as completed › complete all checkbox should update state when items are completed / cleared" classname="demo-todo-app.spec.js" time="5.254">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Mark-all-as-completed-complete-a-f0803-d-update-state-when-items-are-completed-cleared-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Item › should allow me to mark items as complete" classname="demo-todo-app.spec.js" time="3.613">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Item-should-allow-me-to-mark-items-as-complete-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Item › should allow me to un-mark items as complete" classname="demo-todo-app.spec.js" time="3.329">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Item-should-allow-me-to-un-mark-items-as-complete-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Item › should allow me to edit an item" classname="demo-todo-app.spec.js" time="3.092">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Item-should-allow-me-to-edit-an-item-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should hide other controls when editing" classname="demo-todo-app.spec.js" time="3.016">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-hide-other-controls-when-editing-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should save edits on blur" classname="demo-todo-app.spec.js" time="3.34">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-save-edits-on-blur-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should trim entered text" classname="demo-todo-app.spec.js" time="3.01">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-trim-entered-text-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should remove the item if an empty text string was entered" classname="demo-todo-app.spec.js" time="2.886">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-remove-the-item-if-an-empty-text-string-was-entered-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should cancel edits on escape" classname="demo-todo-app.spec.js" time="3.221">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-cancel-edits-on-escape-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Counter › should display the current number of todo items" classname="demo-todo-app.spec.js" time="2.281">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Counter-should-display-the-current-number-of-todo-items-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Clear completed button › should display the correct text" classname="demo-todo-app.spec.js" time="2.943">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Clear-completed-button-should-display-the-correct-text-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Clear completed button › should remove completed items when clicked" classname="demo-todo-app.spec.js" time="2.914">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Clear-completed-button-should-remove-completed-items-when-clicked-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Clear completed button › should be hidden when there are no items that are completed" classname="demo-todo-app.spec.js" time="3.028">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Clear-completed-button-should-be-hidden-when-there-are-no-items-that-are-completed-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Persistence › should persist its data" classname="demo-todo-app.spec.js" time="2.799">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Persistence-should-persist-its-data-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should allow me to display active items" classname="demo-todo-app.spec.js" time="3.445">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-allow-me-to-display-active-items-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should respect the back button" classname="demo-todo-app.spec.js" time="4.549">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-respect-the-back-button-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should allow me to display completed items" classname="demo-todo-app.spec.js" time="3.084">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-allow-me-to-display-completed-items-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should allow me to display all items" classname="demo-todo-app.spec.js" time="3.457">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-allow-me-to-display-all-items-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should highlight the currently applied filter" classname="demo-todo-app.spec.js" time="2.608">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-highlight-the-currently-applied-filter-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-1.spec.ts" timestamp="2024-05-29T23:48:05.417Z" hostname="Webkit (Desktop Safari)" tests="1" failures="0" skipped="0" time="0.516" errors="0">
+<testcase name="test" classname="test-1.spec.ts" time="0.516">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-1-test-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-2.spec.ts" timestamp="2024-05-29T23:48:05.417Z" hostname="Webkit (Desktop Safari)" tests="1" failures="0" skipped="0" time="0.683" errors="0">
+<testcase name="test" classname="test-2.spec.ts" time="0.683">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-2-test-Webkit-Desktop-Safari-\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="demo-todo-app.spec.js" timestamp="2024-05-29T23:48:05.417Z" hostname="Mobile Chrome" tests="24" failures="0" skipped="0" time="33.775" errors="0">
+<testcase name="New Todo › should allow me to add todo items" classname="demo-todo-app.spec.js" time="2.423">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-New-Todo-should-allow-me-to-add-todo-items-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="New Todo › should clear text input field when an item is added" classname="demo-todo-app.spec.js" time="1.121">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-New-Todo-should-clear-text-input-field-when-an-item-is-added-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="New Todo › should append new items to the bottom of the list" classname="demo-todo-app.spec.js" time="1.942">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-New-Todo-should-append-new-items-to-the-bottom-of-the-list-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mark all as completed › should allow me to mark all items as completed" classname="demo-todo-app.spec.js" time="1.993">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Mark-all-as-completed-should-allow-me-to-mark-all-items-as-completed-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mark all as completed › should allow me to clear the complete state of all items" classname="demo-todo-app.spec.js" time="1.318">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Mark-all-as-completed-should-allow-me-to-clear-the-complete-state-of-all-items-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mark all as completed › complete all checkbox should update state when items are completed / cleared" classname="demo-todo-app.spec.js" time="1.882">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Mark-all-as-completed-complete-a-f0803-d-update-state-when-items-are-completed-cleared-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Item › should allow me to mark items as complete" classname="demo-todo-app.spec.js" time="1.228">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Item-should-allow-me-to-mark-items-as-complete-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Item › should allow me to un-mark items as complete" classname="demo-todo-app.spec.js" time="1.247">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Item-should-allow-me-to-un-mark-items-as-complete-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Item › should allow me to edit an item" classname="demo-todo-app.spec.js" time="1.131">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Item-should-allow-me-to-edit-an-item-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should hide other controls when editing" classname="demo-todo-app.spec.js" time="1.309">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-hide-other-controls-when-editing-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should save edits on blur" classname="demo-todo-app.spec.js" time="1.233">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-save-edits-on-blur-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should trim entered text" classname="demo-todo-app.spec.js" time="1.172">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-trim-entered-text-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should remove the item if an empty text string was entered" classname="demo-todo-app.spec.js" time="1.105">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-remove-the-item-if-an-empty-text-string-was-entered-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should cancel edits on escape" classname="demo-todo-app.spec.js" time="1.591">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-cancel-edits-on-escape-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Counter › should display the current number of todo items" classname="demo-todo-app.spec.js" time="0.922">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Counter-should-display-the-current-number-of-todo-items-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Clear completed button › should display the correct text" classname="demo-todo-app.spec.js" time="1.389">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Clear-completed-button-should-display-the-correct-text-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Clear completed button › should remove completed items when clicked" classname="demo-todo-app.spec.js" time="1.651">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Clear-completed-button-should-remove-completed-items-when-clicked-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Clear completed button › should be hidden when there are no items that are completed" classname="demo-todo-app.spec.js" time="1.571">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Clear-completed-button-should-be-hidden-when-there-are-no-items-that-are-completed-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Persistence › should persist its data" classname="demo-todo-app.spec.js" time="1.318">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Persistence-should-persist-its-data-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should allow me to display active items" classname="demo-todo-app.spec.js" time="1.309">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-allow-me-to-display-active-items-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should respect the back button" classname="demo-todo-app.spec.js" time="1.301">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-respect-the-back-button-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should allow me to display completed items" classname="demo-todo-app.spec.js" time="1.172">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-allow-me-to-display-completed-items-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should allow me to display all items" classname="demo-todo-app.spec.js" time="1.326">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-allow-me-to-display-all-items-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should highlight the currently applied filter" classname="demo-todo-app.spec.js" time="1.121">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-highlight-the-currently-applied-filter-Mobile-Chrome\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-1.spec.ts" timestamp="2024-05-29T23:48:05.417Z" hostname="Mobile Chrome" tests="1" failures="0" skipped="0" time="0.385" errors="0">
+<testcase name="test" classname="test-1.spec.ts" time="0.385">
+</testcase>
+</testsuite>
+<testsuite name="test-2.spec.ts" timestamp="2024-05-29T23:48:05.417Z" hostname="Mobile Chrome" tests="1" failures="0" skipped="0" time="0.174" errors="0">
+<testcase name="test" classname="test-2.spec.ts" time="0.174">
+</testcase>
+</testsuite>
+<testsuite name="demo-todo-app.spec.js" timestamp="2024-05-29T23:48:05.417Z" hostname="Microsoft Edge" tests="24" failures="0" skipped="0" time="28.28" errors="0">
+<testcase name="New Todo › should allow me to add todo items" classname="demo-todo-app.spec.js" time="1.944">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-New-Todo-should-allow-me-to-add-todo-items-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="New Todo › should clear text input field when an item is added" classname="demo-todo-app.spec.js" time="2.208">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-New-Todo-should-clear-text-input-field-when-an-item-is-added-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="New Todo › should append new items to the bottom of the list" classname="demo-todo-app.spec.js" time="2.14">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-New-Todo-should-append-new-items-to-the-bottom-of-the-list-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mark all as completed › should allow me to mark all items as completed" classname="demo-todo-app.spec.js" time="2.137">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Mark-all-as-completed-should-allow-me-to-mark-all-items-as-completed-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mark all as completed › should allow me to clear the complete state of all items" classname="demo-todo-app.spec.js" time="1.04">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Mark-all-as-completed-should-allow-me-to-clear-the-complete-state-of-all-items-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mark all as completed › complete all checkbox should update state when items are completed / cleared" classname="demo-todo-app.spec.js" time="0.991">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Mark-all-as-completed-complete-a-f0803-d-update-state-when-items-are-completed-cleared-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Item › should allow me to mark items as complete" classname="demo-todo-app.spec.js" time="0.926">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Item-should-allow-me-to-mark-items-as-complete-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Item › should allow me to un-mark items as complete" classname="demo-todo-app.spec.js" time="1.021">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Item-should-allow-me-to-un-mark-items-as-complete-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Item › should allow me to edit an item" classname="demo-todo-app.spec.js" time="1.017">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Item-should-allow-me-to-edit-an-item-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should hide other controls when editing" classname="demo-todo-app.spec.js" time="1.04">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-hide-other-controls-when-editing-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should save edits on blur" classname="demo-todo-app.spec.js" time="0.969">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-save-edits-on-blur-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should trim entered text" classname="demo-todo-app.spec.js" time="0.925">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-trim-entered-text-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should remove the item if an empty text string was entered" classname="demo-todo-app.spec.js" time="1.034">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-remove-the-item-if-an-empty-text-string-was-entered-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Editing › should cancel edits on escape" classname="demo-todo-app.spec.js" time="0.894">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Editing-should-cancel-edits-on-escape-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Counter › should display the current number of todo items" classname="demo-todo-app.spec.js" time="0.735">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Counter-should-display-the-current-number-of-todo-items-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Clear completed button › should display the correct text" classname="demo-todo-app.spec.js" time="0.816">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Clear-completed-button-should-display-the-correct-text-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Clear completed button › should remove completed items when clicked" classname="demo-todo-app.spec.js" time="1.042">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Clear-completed-button-should-remove-completed-items-when-clicked-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Clear completed button › should be hidden when there are no items that are completed" classname="demo-todo-app.spec.js" time="1.006">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Clear-completed-button-should-be-hidden-when-there-are-no-items-that-are-completed-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Persistence › should persist its data" classname="demo-todo-app.spec.js" time="1.046">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Persistence-should-persist-its-data-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should allow me to display active items" classname="demo-todo-app.spec.js" time="1.064">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-allow-me-to-display-active-items-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should respect the back button" classname="demo-todo-app.spec.js" time="1.17">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-respect-the-back-button-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should allow me to display completed items" classname="demo-todo-app.spec.js" time="1.014">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-allow-me-to-display-completed-items-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should allow me to display all items" classname="demo-todo-app.spec.js" time="1.117">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-allow-me-to-display-all-items-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Routing › should highlight the currently applied filter" classname="demo-todo-app.spec.js" time="0.984">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|demo-todo-app-Routing-should-highlight-the-currently-applied-filter-Microsoft-Edge\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test-1.spec.ts" timestamp="2024-05-29T23:48:05.417Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="0.187" errors="0">
+<testcase name="test" classname="test-1.spec.ts" time="0.187">
+</testcase>
+</testsuite>
+<testsuite name="test-2.spec.ts" timestamp="2024-05-29T23:48:05.417Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="0.161" errors="0">
+<testcase name="test" classname="test-2.spec.ts" time="0.161">
+</testcase>
+</testsuite>
+</testsuites>
