@@ -16,12 +16,13 @@ jobs:
       with:
         node-version: 18.x
     - name: Set environment variable
-      run: echo "MY_ENVIRONMENT_VARIABLE=${{ env.SECRET }}" >> $GITHUB_ENV
-    - name: Install dependencies on ${{ env.ENV_NAME }}
+      run: echo "MY_ENVIRONMENT_VARIABLE=${{ vars.SECRET }}" >> $GITHUB_ENV
+    - name: Install dependencies on ${{ vars.SECRET }}
       run: npm ci
-    - name: Install Playwright Browsers on ${{ env.ENV_NAME }}
+      
+    - name: Install Playwright Browsers on ${{ vars.SECRET }}
       run: npx playwright install --with-deps
-    - name: Run Playwright tests on ${{ env.ENV_NAME }}
+    - name: Run Playwright tests on ${{ vars.SECRET }}
       run: npx playwright test
     - uses: actions/upload-artifact@v3
       if: always()
@@ -29,3 +30,17 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18.x
+    - name: Install dependencies
+      run: npm ci
+    - name: Build
+      run: npm run build
