@@ -19,6 +19,7 @@ jobs:
       run: echo "MY_ENVIRONMENT_VARIABLE=${{ vars.SECRET }}" >> $GITHUB_ENV
     - name: Install dependencies on ${{ vars.SECRET }}
       run: npm ci
+      
     - name: Install Playwright Browsers on ${{ vars.SECRET }}
       run: npx playwright install --with-deps
     - name: Run Playwright tests on ${{ vars.SECRET }}
